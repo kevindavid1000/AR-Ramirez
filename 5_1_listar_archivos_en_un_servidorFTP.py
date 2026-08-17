@@ -4,7 +4,7 @@
 
 import ftplib
 
-FTP_SERVER_URL = 'ftp.kernel.org'
+FTP_SERVER_URL = 'ftp.gnu.org'
 
 def test_ftp_connection(path, username, email):
     try:
